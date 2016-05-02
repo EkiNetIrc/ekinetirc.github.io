@@ -19,7 +19,7 @@ En effet, votre hôte s'affiche lorsque vous rejoignez ou quittez un canal ainsi
 
 Afin de masquer votre IP, l'idée est d'appliquer lors de votre connexion un hôte virtuel qui sera diffuser par les serveurs aux autres personnes à la place de votre véritable hôte.  
 Cet hôte virtuel se présente sous cette forme :
-<pre><code>cloaked/<u>pseudo</u>
+<pre><code>utilisateur/<u>pseudo</u>
 </code></pre>
 L'utilisation d'un slash dans l'hôte est volontaire car ce caractère ne pourras jamais se retrouver dans un vrai nom d'hôte.
 
@@ -47,11 +47,8 @@ Soyez patient, nous ne sommes pas toujours devant notre PC !
 
 ### Attribution
 L'attribution de l'hôte virtuel va être effectuer par un des [administrateurs du réseau](/equipe.html). Vous n'avez rien à effectuer de votre côté.
-A la seconde où l'administrateur va mettre en place votre hôte virtuel, vous allez recevoir automatiquement une notice de HostServ comme ceci :
-<pre><code>*HostServ* Votre vhost <strong>cloaked/pseudo</strong> est activé.
-</code></pre>
-En parallèle, le serveur enverra un message (qui s'affichera dans la console) à chaque fois que la vhost sera mise en place (ex: à chaque connexion) :
-<pre><code>:hirin.ekinetirc.com 396 pseudo cloaked/pseudo :is now your hidden host (set by services.ekinetirc.com)
+A la seconde où l'administrateur va mettre en place votre hôte virtuel ainsi qu'à chaque fois qu'elle s'activera (ex: à chaque connexion), le serveur enverra un message (qui s'affichera dans la console) :
+<pre><code>:hirin.ekinetirc.com 396 pseudo utilisateur/pseudo :is now your hidden host (set by services.ekinetirc.com)
 </code></pre>
 
 
@@ -59,10 +56,10 @@ En parallèle, le serveur enverra un message (qui s'affichera dans la console) �
 Votre hôte virtuel ne sera mis en place que si vous êtes identifié avec votre mot de passe. Identifiez-vous donc dès la connexion.
 Si vous utilisez un client IRC, vous pouvez utiliser la fonctionnalité SASL si pris en charge. Elle est quasi infaillible pour l'identification.
 
-Si vous vous identifiez lorsque vous avez déjà rejoint un canal, le système vous ferra automatiquement quitté et revenir sur tous les canaux où vous êtes présent.
+Si vous vous identifiez lorsque vous avez déjà rejoint un canal, le système vous ferra automatiquement quitter et revenir sur tous les canaux où vous êtes présent.
 Pour vous, cet opération est TOTALEMENT invisible. Pour les autres utilisateurs, cela provoquera l'affichage de quelque chose comme ça :
-<pre><code>[20:31:47] pseudo [~user@ANantes-655-1-***-**.w2-1.abo.wanadoo.fr] vient de partir de #Canal : Changing host
-[20:31:47] pseudo [~user@cloaked/pseudo] a rejoint #Canal
+<pre><code>[20:31:47] pseudo [~user@ANantes-655-1-***-**.w2-1.abo.wanadoo.fr] vient de se déconnecter : Changing host
+[20:31:47] pseudo [~user@utilisateur/pseudo] a rejoint #Canal
 </code></pre>
 
 N'utilisez pas votre hôte virtuel à des fins contraire à notre [netiquette](/netiquette/), sinon un administrateur pourra vous le retirer sur-le-champ.
