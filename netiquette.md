@@ -58,7 +58,7 @@ permalink: /netiquette/
 
 11. La **divulgation d'informations privées** telles que des coordonnées postales, téléphoniques ou adresses E-Mail, est interdite sur les canaux publics. Merci de respecter la confidentialité des informations nominatives et personnelles.
 
-12. Il est interdit de lancer plus de **3 sessions** IRC sur notre réseau. Nos systèmes de sécurité régulent automatiquement les sessions. Si vous avez besoin d'un plus grand nombre de sessions possibles en provenance de la même adresse IP, et si vous disposez d'une adresse IP fixe (et seulement dans ce cas précis), il nous est possible d'ajouter une exception : [contactez-nous](/contact.html) en envoyant les raisons, le nombre souhaité de sessions et l'E-Mail de contact (nécessaire en cas d'abus). N'oubliez pas de nous indiquer l'adresse IP. Si des informations sont manquantes ou si l'adresse IP n'est pas fixe, votre demande ne sera pas traitée.
+12. Il est interdit de lancer un nombre excessif de sessions IRC sur notre réseau (évitez de dépasser 5). Nos systèmes de sécurité régulent automatiquement les sessions. Si vous avez besoin d'un plus grand nombre de sessions possibles en provenance de la même adresse IP, et si vous disposez d'une adresse IP fixe (et seulement dans ce cas précis), il nous est possible d'ajouter une exception : [contactez-nous](/contact.html) en envoyant les raisons, le nombre souhaité de sessions et l'E-Mail de contact (nécessaire en cas d'abus). N'oubliez pas de nous indiquer l'adresse IP. Si des informations sont manquantes ou si l'adresse IP n'est pas fixe, votre demande ne sera pas traitée.
 
 13. Il est interdit d'enregistrer plus de **10 canaux** par personne, plus de 1 groupe de nicks par personne, et plus de **16 nicks** par groupe de nicks (exception faite des robots). Le partage de nicks et de groupes entre différents individus est très fortement déconseillé. En cas de problème, nous n'agirons pas si vous avez volontairement donné votre mot de passe : ce dernier doit absolument rester privé et secret. Nous vous rappelons que nos services sont gratuits et que nous ne pouvons permettre à nos utilisateurs de les surcharger inutilement, ou de pratiquer du cybersquatting. Les pratiques égoïstes et abusives de ce genre seront sanctionnées.
 
@@ -72,7 +72,7 @@ permalink: /netiquette/
 
 
 ## Ce qui est toléré sur EkiNetIrc
-1. Les robots et tout autre système automatique sont tolérés sur EkiNetIrc. Ils doivent mettre le mode **+B** afin d'être reconnus.
+1. Les robots et tout autre système automatique sont tolérés sur EkiNetIrc.
 Toutefois, ils ne doivent pas consommer inutilement nos ressources, et doivent respecter ces Conditions Générales d'Utilisations tout comme les Utilisateurs.
 
 

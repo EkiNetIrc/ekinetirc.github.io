@@ -10,7 +10,7 @@ Voici une version plus compréhensible.
 Vous pouvez utiliser le réseau, créer des canaux, faire tout ce que vous voulez tant que vous respectez les règles. Pour agrémentez vos discussions vous pouvez aussi ajouter des robots sur vos canaux.
 
 Des robots fournis par EkiNetIrc peuvent être assignés et réglés via BotServ. Vous pouvez aussi connecter vos propres robots sur le réseau à condition qu'ils ne spamment pas, qu'ils ne consomment pas trop de ressources sur le réseau et qu'ils respectent les règles comme vous.
-Afin de les reconnaître, faites leur mettre le mode utilisateur **+B**. Si vous mettez un robot sur un canal qui n'est pas le vôtre, demandez d'abord l'autorisation au propriétaire du canal.
+Enfin, si vous mettez un robot sur un canal qui n'est pas le vôtre, demandez d'abord l'autorisation au propriétaire du canal.
 
 ## Les interdits
 
@@ -24,7 +24,7 @@ Les proxys (Tor inclus) sont désormais déconseillés (pour ne pas dire interdi
 
 En outre, les contournements de ban par n'importe quel moyen sont interdit. Si vous tentez de contourner un ban s'appliquant à vous sur un canal, vous risquez un bannissement au niveau du réseau entier.
 
-Vous ne devez pas lancer plus de **3** sessions IRC (connexions) vers EkiNetIrc. [Un robot veille et déconnectera les sessions supplémentaire instantanément.](/docs/session_limit.html) Si vous insistez, le robot finira par placer une gline (bannissement IP au niveau du réseau) temporaire. La raison de cette limitation est de limiter le spam.
+Vous ne devez pas lancer un nombre inutile de sessions IRC (connexions) vers EkiNetIrc. [Des limites sont mises en place afin de prévenir les abus.](/docs/session_limit.html) La raison de cette limitation est de limiter le spam.
 
 ## Que faire en cas de problème ?
 Si vous avez un problème, que ce soit dans l'utilisation du réseau ou avec un autre utilisateur qui ne respecte pas les règles, vous pouvez [nous contacter](/contact.html). S'il y a un problème urgent (exemple : DDoS sur le réseau), tapez plutôt `!help` sur [#EkiNetIrc](irc://irc.ekinetirc.com/#EkiNetIrc). Cela provoquera une alerte au niveau des clients IRC de l'équipe.
