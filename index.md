@@ -9,8 +9,7 @@ title: EkiNetIrc
 Afin de vous connecter à notre réseau et l'utiliser le mieux possible, vous pouvez suivre nos différents tutoriels, donc voici les plus importants pour les débutants à nos yeux :
 
 * [Se connecter au réseau](/docs/connexion.html)
-* [Enregistrer un pseudo](/docs/services/enregistrement.html)
-* [Utiliser les services](/docs/services.html)
+* [Enregistrer un pseudo ou un canal](/docs/services/enregistrement.html)
 * [Masquer son adresse IP (Les hôtes virtuels)](/docs/vhosts.html)
 
 
