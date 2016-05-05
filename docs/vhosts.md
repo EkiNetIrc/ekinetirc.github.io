@@ -14,8 +14,8 @@ Par exemple, sur une connexion Orange (livebox), elle ressemble à cela (certain
 <pre><code>ANantes-655-1-***-**.w2-1.abo.wanadoo.fr
 </code></pre>
 
-Cela permet donc à n'importe de qui de récupérer votre adresse IP (veuillez notez qu'avec les sécurités intégrer aux box, le fait que quelqu'un connait votre IP n'est pas un drame : elle d'ailleurs connu par les administrateurs de tout site internet que vous visitez).  
-En effet, votre hôte s'affiche lorsque vous rejoignez ou quittez un canal ainsi qu'a d'autres endroits.
+Cela permet donc à n'importe de qui de récupérer votre adresse IP (je tiens à préciser que contrairement à certaines idées reçu, il n'y a quasiment aucun risque à ce que votre adresse IP soit publique. Elle est par ailleurs connu par les administrateurs de tous site internet que vous visitez).  
+En effet, votre hôte s'affiche lorsque vous rejoignez ou quittez un canal ainsi qu'a d'autres endroits (dans un `/whois` par exemple).
 
 Afin de masquer votre IP, l'idée est d'appliquer lors de votre connexion un hôte virtuel qui sera diffuser par les serveurs aux autres personnes à la place de votre véritable hôte.  
 Cet hôte virtuel se présente sous cette forme :
@@ -28,11 +28,11 @@ Si vous faites partie du staff d'un projet/site/*autre* ayant un canal IRC offic
 </code></pre>
 
 Veuillez notez qu'un hôte virtuel ne vous rend pas complètement anonyme. Quelqu'un de déterminer et ayant quelques connaissances peut réussir à retrouver votre adresse IP.  
-N'oubliez jamais cette règle : Vous n'êtes **JAMAIS** anonyme sur Internet.
+N'oubliez pas cette règle : Vous n'êtes **JAMAIS** anonyme sur Internet.
 
 
 ## Comment obtenir un hôte virtuel
-Afin de garder la main sur l'attribution des hôte virtuel et d'éviter les abus, aucune procédure automatisée n'a été mise en place pour l'instant.
+Afin de garder la main sur l'attribution des hôte virtuel et d'éviter les abus, aucune procédure automatisée n'a été mise en place.
 
 ### Prérequis
 * Il vous faut d'abord [enregistrer votre pseudo](/docs/services/enregistrement.html). En effet, votre hôte virtuel sera lié à votre compte.
@@ -65,7 +65,7 @@ Pour vous, cet opération est TOTALEMENT invisible. Pour les autres utilisateurs
 N'utilisez pas votre hôte virtuel à des fins contraire à notre [netiquette](/netiquette/), sinon un administrateur pourra vous le retirer sur-le-champ.
 
 Rappelez-vous que cela nous vous rend pas totalement anonyme. Les [administrateurs du réseau](/equipe.html) peuvent toujours voir votre adresse IP.
-De même nous enregistrons toute connexion à notre réseau avec l'IP/hôte réel pour des raisons légales.
+De même nous enregistrons toute connexion à notre réseau avec l'IP réelle pour des raisons légales.
 
 
 ## Hôtes virtuels liés au groupes et aux projets
@@ -80,6 +80,3 @@ Vous pouvez aussi nous fournir une liste d'autres membres de votre équipe habil
 ### Ajouts, modifications et retraits des vhosts
 Un responsable du projet doit contacter un des [administrateurs du réseau](/equipe.html) et effectuer la demande.
 Elle sera traité le plus rapidement possible.
-
-### Cas d'utilisateurs faisant parti de plusieurs groupes
-Si un utilisateur fait partie de plusieurs groupes, nous lui laisserons le choix du groupe utilisé pour sa vhost.

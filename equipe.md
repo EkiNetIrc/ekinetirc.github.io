@@ -10,7 +10,7 @@ Leurs fonctions sont variées, allant de la simple modération à la gestion tec
 ## Liste des administrateurs
 Voici la liste des administrateurs :
 
-* Zoddo (Netadmin/Techadmin)
+* Zoddo (Administrateur technique, gestion des serveurs)
 * Link (IrcOp)
 
 Pour savoir comment nous contacter, rendez vous sur [la page de contact](/contact.html) :)
@@ -25,7 +25,7 @@ Afin de vérifier le statut d'un IrcOp, il vous faut effectuer un `/whois` comme
 </code></pre>
 Celui-ci retournera quelque chose de semblable à :
 <pre><code><strong>Zoddo est Zoddo!Zoddo@ekinetirc/staff/zoddo</strong>
-Zoddo au nom réel : Zoddo
+Zoddo est : Yohan Prod'homme
 Zoddo est authentifié en tant que  Zoddo
 Zoddo est sur : +#EkiNetIrc
 Zoddo est sur le serveur : hirin.ekinetirc.com - Hirin EkiNetIrc Server
