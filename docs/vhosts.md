@@ -14,8 +14,10 @@ Par exemple, sur une connexion Orange (livebox), elle ressemble à cela (certain
 <pre><code>ANantes-655-1-***-**.w2-1.abo.wanadoo.fr
 </code></pre>
 
-Cela permet donc à n'importe de qui de récupérer votre adresse IP (je tiens à préciser que contrairement à certaines idées reçu, il n'y a quasiment aucun risque à ce que votre adresse IP soit publique. Elle est par ailleurs connu par les administrateurs de tous site internet que vous visitez).  
+Cela permet donc à n'importe de qui de récupérer votre adresse IP.
 En effet, votre hôte s'affiche lorsque vous rejoignez ou quittez un canal ainsi qu'a d'autres endroits (dans un `/whois` par exemple).
+
+Je tiens à préciser que contrairement à certaines idées reçus, il n'y a quasiment aucun risque à ce que votre adresse IP soit publique. Elle est par ailleurs connu par les administrateurs de tous site internet que vous visitez.
 
 Afin de masquer votre IP, l'idée est d'appliquer lors de votre connexion un hôte virtuel qui sera diffuser par les serveurs aux autres personnes à la place de votre véritable hôte.  
 Cet hôte virtuel se présente sous cette forme :

@@ -16,7 +16,7 @@ Afin d'enregistrer votre pseudo pour le protéger, exécutez cette commande sur 
 <pre><code>/ns register <u>mot de passe</u> <u>e-mail</u>
 </code></pre>
 
-**Note :** Vous devez remplacer la/les partie(s) <u>souilgnée(s)</u> ci-dessus par leur correspondance.  
+**Note :** Vous devez remplacer la/les partie(s) <u>soulignée(s)</u> ci-dessus par leur correspondance.  
 **Note :** Cette commande s'exécute en prenant en compte le pseudo que vous utilisez lorsque vous exécutez la commande.  
 **Note :** <u>mot de passe</u> est sensible à la casse.
 
@@ -31,7 +31,7 @@ Afin d'ajouter un pseudo à votre compte, exécutez cette commande sur IRC :
 <pre><code>/ns group <u>compte</u> <u>mot de passe</u>
 </code></pre>
 
-**Note :** Vous devez remplacer la/les partie(s) <u>souilgnée(s)</u> ci-dessus par leur correspondance.  
+**Note :** Vous devez remplacer la/les partie(s) <u>soulignée(s)</u> ci-dessus par leur correspondance.  
 **Note :** Cette commande s'exécute en prenant en compte le pseudo que vous utilisez lorsque vous exécutez la commande.  
 **Note :** <u>mot de passe</u> est sensible à la casse.  
 **Note :** Le mot de passe doit-être celui de votre compte !
@@ -43,7 +43,7 @@ Pour le changer, il suffit d'utiliser la commande resetpass qui s'utilise comme 
 <pre><code>/ns resetpass <u>pseudo</u> <u>e-mail</u>
 </code></pre>
 
-**Note :** Vous devez remplacer la/les partie(s) <u>souilgnée(s)</u> ci-dessus par leur correspondance.
+**Note :** Vous devez remplacer la/les partie(s) <u>soulignée(s)</u> ci-dessus par leur correspondance.
 
 Cette commande va vous envoyer un email vous décrivant la marche à suivre pour changer de mot de passe.
 
@@ -53,7 +53,7 @@ Il existe une commande permettant de récupérer une liste d'utilisateurs selon 
 <pre><code>/ns list <u>filtre</u>
 </code></pre>
 
-**Note :** Vous devez remplacer la/les partie(s) <u>souilgnée(s)</u> ci-dessus par leur correspondance.  
+**Note :** Vous devez remplacer la/les partie(s) <u>soulignée(s)</u> ci-dessus par leur correspondance.  
 **Astuce :** Si vous mettez une **\* (étoile)** cette commande vous affichera tous les utilisateurs enregistrés.  
 **Astuce :** Le filtre peut être une [expression régulière](https://fr.wikipedia.org/wiki/Expression_rationnelle) PCRE :
 il suffit de la mettre entre deux **/ (slash)**.
